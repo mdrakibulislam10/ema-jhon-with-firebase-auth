@@ -1,0 +1,27 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    /* gap: 82px; */
+    z-index: 1;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    padding: 92px;
+}
+
+.cart-container {
+    background: rgba(255, 153, 0, 0.3);
+    /* text-align: center; */
+}
+
+.btn-proceed {
+    background-color: yellow;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
